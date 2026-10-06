@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>utazasiajanlatok</title>
+  </head>
+  <body>
+    <form id="utazasForm">
+      <label for="cel">Add meg hova szeretnél utazni:</label><br/>
+      <input type="text" id="cel" name="cel"/><br/>
+      <label for="leiras">Adj meg egy rövid leírást:</label><br/>
+      <input type="text" id="leiras" name="leiras"/><br/>
+      <button type="submit" class="btn btn-primary" id="hozzaadas">Hozzáadás</button>
+    </form>
+
+
+    <div class="container" id="kartyak">
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
